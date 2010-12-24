@@ -3,7 +3,7 @@
 class Example {
 
     public function fx($x) {
-        return $x - 1;
+        return $x + 1;
     }
 
     public function fy($y) {

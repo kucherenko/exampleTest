@@ -11,11 +11,11 @@ class exampleTest_1 extends PHPUnit_Framework_TestCase {
     /**
      * @param Example
      */
-    private $_sup = null;
+    private $_sut = null;
 
     public function  setUp()
     {
-        $this->_sup = new Example();
+        $this->_sut = new Example();
     }
 
     /**
@@ -23,7 +23,7 @@ class exampleTest_1 extends PHPUnit_Framework_TestCase {
      */
     public function testFx($data, $expected)
     {
-        $this->assertEquals($expected, $this->_sup->fx($data));
+        $this->assertEquals($expected, $this->_sut->fx($data));
     }
 
     public function dataFx()
@@ -42,7 +42,7 @@ class exampleTest_1 extends PHPUnit_Framework_TestCase {
      */
     public function testFy($data, $expected)
     {
-        $this->assertEquals($expected, $this->_sup->fy($data));
+        $this->assertEquals($expected, $this->_sut->fy($data));
     }
 
     public function dataFy()
@@ -61,7 +61,7 @@ class exampleTest_1 extends PHPUnit_Framework_TestCase {
      */
     public function testZ($x, $y, $expected)
     {
-        $this->assertEquals($expected, $this->_sup->Z($x, $y));
+        $this->assertEquals($expected, $this->_sut->Z($x, $y));
     }
 
     public function dataZ()
