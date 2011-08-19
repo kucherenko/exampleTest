@@ -18,5 +18,9 @@ class Example {
     {
         return $this->fx($x) + $this->fy($y);
     }
+    
+    public function __toString() {
+	echo "example object";
+    }
 
 }
