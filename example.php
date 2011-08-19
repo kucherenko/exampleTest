@@ -1,7 +1,8 @@
 <?php
 
 /**
- * Example class 
+ * Example class.
+ *
  */
 class Example {
 
