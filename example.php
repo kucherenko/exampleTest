@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * Example class 
+ */
 class Example {
 
     public function fx($x) {
