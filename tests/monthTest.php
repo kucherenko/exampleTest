@@ -9,24 +9,24 @@ class monthTest extends PHPUnit_Framework_TestCase {
 	{
 	       $m = new Month();
 
-		$this->assertEquals($expected, $m->getNameByNumber());
+		$this->assertEquals($expected, $m->getNameByNumber($data));
 	}
 	
 	public function monthNameData()
 	{
 		return array(
-		  	array(1, 'Январь'),
-		  	array(2, 'Февраль'),
-		  	array(3, 'Март'),
-		  	array(4, 'Апрель'),
-		  	array(5, 'Май'),
-		  	array(6, 'Июнь'),
-		  	array(7, 'Июль'),
-		  	array(8, 'Август'),
-		  	array(9, 'Сентябрь'),
-		  	array(10, 'Октябрь'),
-		  	array(11, 'Ноябрь'),
-		  	array(12, 'Декабрь'),
+		  	array(1, 'пїЅпїЅпїЅпїЅпїЅпїЅ'),
+		  	array(2, 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅ'),
+		  	array(3, 'пїЅпїЅпїЅпїЅ'),
+		  	array(4, 'пїЅпїЅпїЅпїЅпїЅпїЅ'),
+		  	array(5, 'пїЅпїЅпїЅ'),
+		  	array(6, 'пїЅпїЅпїЅпїЅ'),
+		  	array(7, 'пїЅпїЅпїЅпїЅ'),
+		  	array(8, 'пїЅпїЅпїЅпїЅпїЅпїЅ'),
+		  	array(9, 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ'),
+		  	array(10, 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅ'),
+		  	array(11, 'пїЅпїЅпїЅпїЅпїЅпїЅ'),
+		  	array(12, 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅ'),
 		);
 	}
 
