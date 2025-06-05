@@ -20,7 +20,7 @@ class Example {
     }
 
     public function __toString() {
-        echo "example object";
+        return "example object";
     }
     
     public function __construct() {
